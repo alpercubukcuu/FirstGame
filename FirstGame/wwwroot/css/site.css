@@ -1,0 +1,250 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+    color: #0366d6;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    font-size: 14px;
+}
+::-webkit-scrollbar {
+    display: none;
+    visibility: hidden;
+    opacity: 0
+}
+
+.footer-ground img {
+    width: 120%;
+    height: 150px;
+    margin-left: 5px;
+}
+
+.footer-ground {
+    height: 150px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer {
+    /*  background-color: sandybrown;*/
+    background: linear-gradient(1deg, #4f4600, #126430);
+    position: fixed !important;
+}
+
+.text-center {
+    background-color: #00264a00;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+body {
+    background-color: #00264a;
+}
+
+.cloud-fix img {
+    margin-top: 25px;
+    width:100%;
+}
+
+/*.cloud-1 img {
+    width: 45%;
+}
+
+.cloud-2 img {
+    width: 50% !important;
+}
+
+.cloud-3 img {
+    width: 42% !important;
+}
+
+.cloud-4 img {
+    width: 55% !important;
+}
+
+.cloud-5 img {
+    width: 35% !important;
+}*/
+
+.btn-div {
+    text-align: center;
+}
+.game-btn{
+    width: 150px;
+    height: 80px;
+    text-align: center;
+    font-size: 35px;
+    border-radius: 0px;
+    background-color: #007e7e;
+    border: 1px solid darkslategray;    
+}
+
+    .game-btn:hover {
+        color: white !important;
+        background-color: #007e7e;
+        border-radius: 0px;
+        box-shadow: 10px 10px;
+    }
+.start-btn {
+    width: 150px;
+    height: 80px;
+    text-align: center;
+    font-size: 35px;
+    border-radius: 0px;
+    background-color: #007e7e;
+    border: 1px solid darkslategray;
+    margin-top:100px;
+}
+
+    .start-btn:hover {
+        color: white !important;
+        background-color: #007e7e;
+        border-radius: 0px;
+        box-shadow: 10px 10px;
+    }
+
+.setting-btn {
+    width: 150px;
+    height: 80px;
+    text-align: center;
+    font-size: 35px;
+    border-radius: 0px;
+    background-color: #007e7e;
+    border: 1px solid darkslategray;
+    margin-top: 100px;
+}
+
+    .setting-btn:hover {
+        color: white !important;
+        background-color: #007e7e;
+        border-radius: 0px;
+        box-shadow: 10px 10px;
+    }
+.modal-2 {
+    width: 30%;
+    height: 350px;
+    background-color: lightgray;
+    box-shadow: 10px 10px;
+    text-align: center;
+    padding: 50px;
+    position:absolute;
+    z-index:9999;
+}
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px; /* Vertically center the text there */
+}
+
+.cloud-1 {
+    position: relative;
+    animation-name: cloudanime !important;
+    animation-duration: 50s !important;
+}
+.cloud-2 {
+    position: relative;
+    animation-name: cloudanime !important;
+    animation-duration: 100s !important;
+}
+.cloud-3 {
+    position: relative;
+    animation-name: cloudanime !important;
+    animation-duration: 50s !important;
+}
+.cloud-4 {
+    position: relative;
+    animation-name: cloudanime !important;
+    animation-duration: 100s !important;
+}
+.cloud-5 {
+    position: relative;
+    animation-name: cloudanime !important;
+    animation-duration: 50s !important;
+}
+
+@keyframes cloudanime {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        left: 200px;
+        top: 0px;
+    }
+
+    50% {
+        left: 200px;
+        top: 10px;
+    }
+
+    75% {
+        left: 0px;
+        top: 15px;
+    }
+
+    100% {
+        left: 0px;
+        top: 20px;
+    }
+}

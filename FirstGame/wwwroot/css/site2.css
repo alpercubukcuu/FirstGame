@@ -1,0 +1,216 @@
+﻿* {
+    cursor: url(https://localhost:44329/uploads/target1.png), auto;
+}
+.score p{
+    font-size:30px;
+    color:white;
+}
+.footer-ground {
+    height: 120px;
+}
+.footer {
+    background: linear-gradient(1deg, #4f4600, #126430);
+    position: fixed !important;
+}
+.border-top {
+    border-top: 1px solid #e5e5e500 !important;
+}
+::-webkit-scrollbar {
+    display: none;
+    visibility: hidden;
+    opacity: 0
+}
+.count{
+    margin-top:10px;
+    z-index:9999 !important;
+}
+.test {
+    background: linear-gradient(359deg, #6f3d3d, #000000);
+}
+#count {
+    color: #7cff00;
+    text-shadow: 2px 2px black;
+    font-weight: 600;
+    background-color: #f5f5dc00;
+    border: 1px;
+    margin-top: 0px;
+    font-size: 40px;
+    text-align: center;
+    pointer-events: none;
+}
+
+.modal-set {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.modal-1 {
+    width: 80%;
+    height: 350px;
+    background-color: lightgray;
+    box-shadow: 10px 10px;
+    text-align: center;
+    padding:50px;
+}
+#score2 {
+    color: black;
+    background-color: #f5f5dc00;
+    border: 1px;
+    margin-top: 0px;
+    font-size: 60px;
+    text-align: center;
+    pointer-events: none;
+}
+#scoretable {
+    background-color: #ff000000;
+    border: 1px solid #ff000000;
+    width: 50px;
+    height: 30px;
+    pointer-events: none;
+    color: white;
+}
+.znak {
+    width: 650px;
+    position: absolute;
+    left: 33%;
+    top: 44%;
+    animation-name: padanjeznaka;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes padanjeznaka {
+    0% {
+        top: -700%;
+    }
+
+    90% {
+        top: 44%;
+    }
+
+    95% {
+        top: 36%;
+    }
+
+    100% {
+        top: 44%;
+    }
+}
+
+.tznak {
+    word-spacing: 80px;
+    font-size: xx-large;
+    position: absolute;
+    left: 41.5%;
+    transform: rotate(-2deg);
+    top: 47.5%;
+    animation-name: padanjeznakateksta;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    font-style: inherit;
+    color: azure;
+}
+
+
+@keyframes padanjeznakateksta {
+    0% {
+        top: -700%;
+    }
+
+    90% {
+        top: 47.5%;
+    }
+
+    95% {
+        top: 38.5%;
+    }
+
+    100% {
+        top: 47.5%;
+    }
+}
+
+.strelice {
+    width: 80px;
+    position: absolute;
+    top: 55%;
+    left: 53.5%;
+    animation-name: padanjeznakastrelice;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes padanjeznakastrelice {
+    0% {
+        top: -700%;
+    }
+
+    90% {
+        top: 55%;
+    }
+
+    95% {
+        top: 44%;
+    }
+
+    100% {
+        top: 55%;
+    }
+}
+
+.jeszim {
+    width: 900px;
+    height: 400px;
+    background-color: rgb(240, 255, 255, 0.8);
+    position: absolute;
+    left: 26%;
+    animation-name: pad;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+}
+
+@keyframes pad {
+    0% {
+        top: -100%;
+    }
+
+    100% {
+        top: 0%;
+    }
+}
+.start-btn-2{
+    margin-top:0px !important;
+}
+
+.pahulje {
+    width: 140px;
+    position: absolute;
+    z-index: -1;
+    animation-name: pahuljepad;
+    animation-timing-function: cubic-bezier(0.41, -0.21, 0, 1);
+    animation-iteration-count: infinite;
+    cursor: url(https://localhost:44329/uploads/target1.png), auto;
+}
+
+@keyframes pahuljepad {
+    0% {
+        top: -70%;
+    }
+
+    25% {
+        transform: rotate(22.5deg);
+    }
+
+    50% {
+        transform: rotate(45deg);
+    }
+
+    75% {
+        transform: rotate(67.5deg);
+    }
+
+    100% {
+        top: 100%;
+        transform: rotate(90deg);
+    }
+}
